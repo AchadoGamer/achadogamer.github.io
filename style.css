@@ -1,0 +1,39 @@
+:root {
+  --bg: #111114;
+  --card: #1c1c21;
+  --line: #2c2c33;
+  --text: #f2f2f2;
+  --muted: #a3a3ad;
+  --yellow: #ffc400;
+  --red: #d9002b;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.55 "Segoe UI", Roboto, Arial, sans-serif;
+}
+main { max-width: 640px; margin: 0 auto; padding: 32px 16px 48px; }
+a { color: var(--yellow); }
+h1, h2 { line-height: 1.2; }
+h2 { margin-top: 36px; font-size: 1.15rem; border-left: 4px solid var(--red); padding-left: 10px; }
+.perfil { text-align: center; }
+.perfil img { width: 112px; height: 112px; border-radius: 50%; border: 4px solid var(--yellow); }
+.perfil h1 { margin: 12px 0 4px; font-size: 1.8rem; letter-spacing: .5px; }
+.perfil p { margin: 0; color: var(--muted); }
+.links { display: grid; gap: 12px; margin-top: 16px; }
+.botao {
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px 16px; border-radius: 12px;
+  background: var(--card); border: 1px solid var(--line);
+  color: var(--text); text-decoration: none; font-weight: 600;
+}
+.botao:hover { border-color: var(--yellow); }
+.botao small { display: block; font-weight: 400; color: var(--muted); }
+.botao.yt { background: var(--red); border-color: var(--red); }
+.botao svg { flex: none; }
+.aviso { font-size: .9rem; color: var(--muted); }
+footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); font-size: .9rem; color: var(--muted); text-align: center; }
+.doc p, .doc li { color: #dcdce2; }
+.doc .data { color: var(--muted); font-size: .9rem; }
