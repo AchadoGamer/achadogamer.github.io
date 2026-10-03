@@ -37,3 +37,5 @@ h2 { margin-top: 36px; font-size: 1.15rem; border-left: 4px solid var(--red); pa
 footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); font-size: .9rem; color: var(--muted); text-align: center; }
 .doc p, .doc li { color: #dcdce2; }
 .doc .data { color: var(--muted); font-size: .9rem; }
+.botao.produto { border-color: var(--yellow); }
+.botao.produto img { flex: none; width: 56px; height: 56px; border-radius: 8px; }
